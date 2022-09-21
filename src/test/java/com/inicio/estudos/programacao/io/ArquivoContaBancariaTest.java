@@ -28,7 +28,7 @@ public class ArquivoContaBancariaTest {
 		contas.add(new ContaBancaria("lulu", 6500.21));
 		contas.add(new ContaBancaria("Tiago", 100.21));
 		
-		path = Paths.get("c://t//files//contas.txt");
+		path = Paths.get("c:/t/files/contas.txt");
 		
 		Files.createDirectories(path.getParent());
 		operacao = new ArquivoContaBancaria();

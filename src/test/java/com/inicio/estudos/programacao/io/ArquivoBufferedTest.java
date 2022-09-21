@@ -29,7 +29,7 @@ public class ArquivoBufferedTest {
 
     @BeforeEach
     public void setup() throws IOException{
-        stringCompleta = "Texto para gravacao - Buffered";
+        stringCompleta = "Texto numero um, outro texto.";
         stringRetornada = "";
 
         path = Paths.get("c:/t/files2/texto.txt");
@@ -37,8 +37,9 @@ public class ArquivoBufferedTest {
         
         charset_utf8 = StandardCharsets.UTF_8;
         
+        //gravando novo texto no arquivo
         bufferedWriter = Files.newBufferedWriter(path, charset_utf8);
-        bufferedWriter.write("Texto numero um, \n");
+        bufferedWriter.write("Texto numero um, ");
         bufferedWriter.write("outro texto.");
         bufferedWriter.flush();// para gravar as linhas de texto.
         
@@ -73,6 +74,6 @@ public class ArquivoBufferedTest {
     public void deveLerArquivosGrandesStreamJava8() throws IOException {
         stringRetornada =  bufferedReader.lines().collect(Collectors.joining());
         assertEquals(stringCompleta, stringRetornada);
-    }
-    
+    }   
+
 }
