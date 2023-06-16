@@ -1,6 +1,10 @@
 .vscode
 node_modules
 
+.settings
+.classpath
+.project
+
 target/
 \bin
 
