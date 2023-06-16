@@ -7,6 +7,8 @@ import javax.swing.*;
 
 public class Eventos extends JFrame implements ActionListener {
 
+	private static final long serialVersionUID = 1L;
+
 	JButton botao;
 	public Eventos(){
 	super("Eventos");

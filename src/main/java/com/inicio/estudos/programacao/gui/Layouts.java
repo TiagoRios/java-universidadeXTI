@@ -6,6 +6,9 @@ import java.awt.Container;
 import javax.swing.*;
 
 public class Layouts extends JFrame {
+	
+	private static final long serialVersionUID = 8564448002438814058L;
+
 	public Layouts(){
 		super("Layouts");		
 			

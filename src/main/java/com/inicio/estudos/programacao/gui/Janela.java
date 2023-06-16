@@ -3,6 +3,8 @@ package com.inicio.estudos.programacao.gui;
 import javax.swing.*;
 
 public class Janela extends JFrame {
+	private static final long serialVersionUID = 1L;
+	
 	public Janela(){
 		super("minha janela");
 		JButton botao = new JButton("clique");

@@ -10,6 +10,8 @@ import javax.swing.JPanel;
 
 public class Layouts2 extends JFrame {
 
+	private static final long serialVersionUID = 1L;
+
 	public Layouts2(){
 		super("Layouts");
 		Container c = getContentPane();

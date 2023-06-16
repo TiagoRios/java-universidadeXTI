@@ -8,6 +8,8 @@ import javax.swing.JFrame;
 
 public class Aninhamento extends JFrame {
 
+	private static final long serialVersionUID = 1L;
+
 	JButton botao;
 	public Aninhamento(){
 		super("Aninhamento");

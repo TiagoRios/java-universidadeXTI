@@ -154,7 +154,7 @@ public class Lista {
 		 return fim - inicio ;
 		 }
 		
-		 public static long foreach (LinkedList<Object> linkedList ) {
+	public static long foreach (LinkedList<Object> linkedList ) {
 		 long inicio = System.currentTimeMillis ();
 		
 		 for ( Object x : linkedList ) {
